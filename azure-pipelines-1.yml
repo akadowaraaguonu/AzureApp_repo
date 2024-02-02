@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Chima_AzureToken
+  vmImage: ubuntu-latest
 
 variables:
   buildConfiguration: 'Release'
